@@ -67,6 +67,7 @@ You can perform validation check with or without creating an instance.
 ```
 >>> iban_checker.validate_iban("GB29 NWBK 6016 1331 9268 19")
 True
+
 >>> IBAN_Checker.validate_iban("GB29 NWBK 6016 1331 9268 19")
 True
 ```
@@ -74,6 +75,7 @@ Let's change one digit in the IBAN again.
 ```
 >>> iban_checker.validate_iban("GB28 NWBK 6016 1331 9268 19")
 False
+
 >>> IBAN_Checker.validate_iban("GB28 NWBK 6016 1331 9268 19")
 False
 ```
