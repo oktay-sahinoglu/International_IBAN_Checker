@@ -36,7 +36,7 @@ E.g.: XX,2n,4a,16c means country code(XX) then 2 numbers then 4 letters then 16 
 Assuming it is run from the path contains `iban_checker.py`.
 
 ```
->>> from iban_checker import IBAN_checker
+>>> from iban_checker import IBAN_Checker
 >>> iban_checker = IBAN_Checker()
 
 >>> iban_checker.find_iban("I want to check the balance of my account with GB 29 NWBK 601613 31926819 iban number.")
